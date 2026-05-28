@@ -3,7 +3,7 @@ const Replicate = require('replicate');
 const app = express();
 app.use(express.json({ limit: '10mb' }));
 
-const replicate = new Replicate({ auth: "YOUR_REPLICATE_API_KEY" });
+const replicate = new Replicate({ auth: "r8_VZyhjiEZJn90hY9vyilrH3jgpZTRGdN1GvjcN"});
 
 app.post('/generate-icon', async (req, res) => {
     try {
